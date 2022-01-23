@@ -1,0 +1,13 @@
+@mixin fontStyle ($color, $peso, $tamanio) {
+    background-color: $color;
+    color: black;
+    letter-spacing: 0.2;
+    margin-bottom: 1rem;
+    animation: text 5s 1;
+    align-items: center;
+    font: {
+      weight: $peso;
+      family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      size: $tamanio;
+    }
+}

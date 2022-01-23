@@ -1,0 +1,45 @@
+.header {
+  background-image: $color__header;
+  display: flex;
+}
+
+nav {
+  font-size: 1rem;
+  ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: $color__letra;
+    position: relative;
+    background-color: rgb(37, 58, 58);
+    border-radius: 0;
+    padding: 1em 1.25em;
+    font-size: 1em;
+    font-weight: 600;
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+    z-index: 100;
+    &:hover {
+      color: $color__letra;
+      background-color: $color__titleynav;
+      font-weight: bold;
+    }
+  }
+}
+
+ul ul {
+  position: absolute;
+  width: 100%;
+  top: 2rem;
+  left: 1rem;
+  display: none;
+  display: flex;
+  li{
+    display: block;
+  }
+  &:hover{
+    display: block;
+  }
+}
+
+
+
+

@@ -1,0 +1,39 @@
+h1 {
+  @include fontStyle ($color__titleynav, bold, 2.5rem)
+}
+
+.title-container {
+  height: 30vh;
+}
+
+.text-container {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes text {
+  0% {
+    color: black;
+    margin-bottom: -40px;
+  }
+
+  30% {
+    letter-spacing: 1.5rem;
+    margin-bottom: -40px;
+  }
+}
+
+.title {
+@extend %estilosTitulo;
+}
+
+.subtitle {
+ @extend %estilosSubTitulo;
+}
+
+.text {
+@extend %estilosTexto
+}

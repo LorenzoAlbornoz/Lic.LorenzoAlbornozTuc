@@ -1,0 +1,172 @@
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: sans-serif; }
+
+.subtitle {
+  font-size: 1.5rem;
+  text-align: center; }
+
+.text {
+  font-size: 1rem;
+  text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../img/20689-plateados.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.header {
+  background-image: linear-gradient(grey, black);
+  display: flex; }
+
+nav {
+  font-size: 1rem; }
+  nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    background-color: #253a3a;
+    border-radius: 0;
+    padding: 1em 1.25em;
+    font-size: 1em;
+    font-weight: 600;
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+    z-index: 100; }
+    nav ul li a:hover {
+      color: white;
+      background-color: #29aeb3;
+      font-weight: bold; }
+
+ul ul {
+  position: absolute;
+  width: 100%;
+  top: 2rem;
+  left: 1rem;
+  display: none;
+  display: flex; }
+  ul ul li {
+    display: block; }
+  ul ul:hover {
+    display: block; }
+
+h1 {
+  background-color: #29aeb3;
+  color: black;
+  letter-spacing: 0.2;
+  margin-bottom: 1rem;
+  animation: text 5s 1;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2.5rem; }
+
+.title-container {
+  height: 30vh; }
+
+.text-container {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+@keyframes text {
+  0% {
+    color: black;
+    margin-bottom: -40px; }
+  30% {
+    letter-spacing: 1.5rem;
+    margin-bottom: -40px; } }
+
+.logo {
+  height: 150px;
+  width: 150px; }
+
+.image {
+  display: block;
+  margin: auto; }
+
+.formContainer__title {
+  color: black;
+  text-align: center;
+  margin: 1.5rem; }
+
+.form {
+  text-align: center; }
+
+.form__label {
+  color: black;
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+  width: 60%; }
+
+.form__input,
+.form__textarea {
+  width: 60%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: white;
+  border: none;
+  border-bottom: solid 1px #39d3d8;
+  font-size: 1rem;
+  font-family: sans-serif; }
+
+.form__textarea {
+  height: 5rem;
+  resize: none; }
+
+.form__input:focus,
+.form__textarea {
+  outline: none; }
+
+.form__input--submit {
+  background-color: #39d3d8;
+  margin-top: 1.5rem;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  cursor: pointer; }
+
+.form__input--submit:hover {
+  background-color: #29aeb3; }
+
+.fa-whatsapp:hover {
+  background-color: #18a32b;
+  font-size: 3.5regit remoem;
+  transition: 1s; }
+
+.fa-whatsapp {
+  color: white;
+  font-size: 3rem;
+  background-color: #3ec34f;
+  padding: 0.6rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem; }
+
+.carousel-inner {
+  margin-bottom: 2.5rem; }
+
+.footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  font-size: 1.25rem;
+  align-content: stretch;
+  justify-items: center;
+  width: auto; }
+  .footer a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center; }

@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  background-color: $color__footer;
+  color: $color__letra;
+  font-size: 1.25rem;
+  align-content: stretch;
+  justify-items: center;
+  width: auto;
+  a{ text-decoration: none;
+    color: $color__letra;
+    display: flex;
+    justify-content: center;
+  }
+}
