@@ -5,6 +5,7 @@
 
 nav {
   font-size: 1rem;
+
   ul li a {
     display: inline-block;
     text-decoration: none;
@@ -18,6 +19,7 @@ nav {
     transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
     z-index: 100;
     margin: 0.3rem;
+
     &:hover {
       color: $color__letra;
       background-color: $color__titleynav;
@@ -33,16 +35,16 @@ ul ul {
   left: 1rem;
   display: none;
   display: flex;
-  li{
+
+  li {
     display: block;
   }
-  &:hover{
+
+  &:hover {
     display: block;
   }
 }
 
-li{
+li {
   list-style: none;
 }
-
-

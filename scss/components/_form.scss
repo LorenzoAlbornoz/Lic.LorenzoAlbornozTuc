@@ -1,51 +1,51 @@
 .formContainer__title {
-    color: black;
-    text-align: center;
-    margin: 1.5rem;
-  }
-  
-  .form {
-    text-align: center;
-  }
-  
-  .form__label {
-    color: black;
-    font-weight: 600;
-    text-align: left;
-    display: inline-block;
-    width: 60%;
-  }
-  
-  .form__input,
-  .form__textarea {
-    width: 60%;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    background-color: white;
-    border: none;
-    border-bottom: solid 1px $color__form1;
-    font-size: 1rem;
-    font-family: sans-serif;
-  }
-  
-  .form__textarea {
-    height: 5rem;
-    resize: none;
-  }
-  
-  .form__input:focus,
-  .form__textarea {
-    outline: none;
-  }
-  
-  .form__input--submit {
-    background-color: $color__form1;
-    margin-top: 1.5rem;
-    border-radius: 0.3rem;
-    font-weight: 600;
-    cursor: pointer;
-  }
-  
-  .form__input--submit:hover {
-    background-color: $color__form2;
-  }
+  color: black;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.form {
+  text-align: center;
+}
+
+.form__label {
+  color: black;
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+  width: 60%;
+}
+
+.form__input,
+.form__textarea {
+  width: 60%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: white;
+  border: none;
+  border-bottom: solid 1px $color__form1;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.form__textarea {
+  height: 5rem;
+  resize: none;
+}
+
+.form__input:focus,
+.form__textarea {
+  outline: none;
+}
+
+.form__input--submit {
+  background-color: $color__form1;
+  margin-top: 1.5rem;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form__input--submit:hover {
+  background-color: $color__form2;
+}
