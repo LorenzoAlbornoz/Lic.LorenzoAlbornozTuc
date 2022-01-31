@@ -1,8 +1,8 @@
 
 $textoResaltado: (
 nombre: black,
-logro: red,
-objetivo: blue,
+logro: rgb(41, 38, 38),
+objetivo: rgb(105, 74, 74),
 );
 
 @each $frases, $color in $textoResaltado{
