@@ -6,6 +6,7 @@
   align-content: stretch;
   justify-items: center;
   width: auto;
+  flex-direction: column;
   a{ text-decoration: none;
     color: $color__letra;
     display: flex;

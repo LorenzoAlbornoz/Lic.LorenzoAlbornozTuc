@@ -14,22 +14,9 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-@keyframes text {
-  0% {
-    color: black;
-    margin-bottom: -40px;
-  }
-
-  30% {
-    letter-spacing: 1.5rem;
-    margin-bottom: -40px;
-  }
-}
-
 .title {
   @extend %estilosTitulo;
 }
-
 
 .subtitle {
   @extend %estilosSubTitulo;
@@ -52,6 +39,7 @@ h1 {
   position: fixed;
   bottom: 5rem;
   right: 2rem;
+
   &:hover {
     background-color: $color__whatsapp2;
     font-size: 3.5;
@@ -73,6 +61,7 @@ h1 {
   content: "\f167";
   margin-left: 10px;
 }
+
 .logo {
   height: 150px;
   width: 150px;
@@ -80,5 +69,103 @@ h1 {
 
 .image {
   display: block;
-  margin:auto;
+  margin: auto;
+}
+
+.ubicacion {
+  display: flex;
+  height: 400px;
+}
+
+.tabla {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grill {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr auto;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header"
+    "section1"
+    "section2"
+    "section3"
+    "section4"
+    "section5"
+    "footer";
+}
+  .grill2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr auto;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header"
+      "section1"
+      "section2"
+      "footer"
+  }
+
+  .grill3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr auto;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header"
+      "section1"
+      "section2"
+      "section3"
+      "footer"
+  }
+
+
+@media (max-width: 990px) and (min-width: 300px) {
+  .grill {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr auto;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header"
+      "section1"
+      "section2"
+      "section3"
+      "section4"
+      "section5"
+      "footer";
+  }
+
+  .grill2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr auto;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header"
+      "section1"
+      "section2"
+      "footer"
+  }
+
+  .grill3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr auto;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header"
+      "section1"
+      "section2"
+      "section3"
+      "footer"
+  }
+
+  .tabla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

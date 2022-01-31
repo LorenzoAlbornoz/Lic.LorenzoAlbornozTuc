@@ -71,7 +71,8 @@ nav {
     font-size: 1em;
     font-weight: 600;
     transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
-    z-index: 100; }
+    z-index: 100;
+    margin: 0.3rem; }
     nav ul li a:hover {
       color: white;
       background-color: #29aeb3;
@@ -94,7 +95,6 @@ h1 {
   color: black;
   letter-spacing: 0.2;
   margin-bottom: 1rem;
-  animation: text 5s 1;
   align-items: center;
   font-weight: bold;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -109,14 +109,6 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
-
-@keyframes text {
-  0% {
-    color: black;
-    margin-bottom: -40px; }
-  30% {
-    letter-spacing: 1.5rem;
-    margin-bottom: -40px; } }
 
 .carousel-inner {
   margin-bottom: 2.5rem; }
@@ -154,6 +146,59 @@ h1 {
 .image {
   display: block;
   margin: auto; }
+
+.ubicacion {
+  display: flex;
+  height: 400px; }
+
+.tabla {
+  display: flex;
+  justify-content: space-between; }
+
+.grill {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr auto;
+  grid-auto-flow: row;
+  grid-template-areas: "header" "section1" "section2" "section3" "section4" "section5" "footer"; }
+
+.grill2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr auto;
+  grid-auto-flow: row;
+  grid-template-areas: "header" "section1" "section2" "footer"; }
+
+.grill3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr auto;
+  grid-auto-flow: row;
+  grid-template-areas: "header" "section1" "section2" "section3" "footer"; }
+
+@media (max-width: 990px) and (min-width: 300px) {
+  .grill {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr auto;
+    grid-auto-flow: row;
+    grid-template-areas: "header" "section1" "section2" "section3" "section4" "section5" "footer"; }
+  .grill2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr auto;
+    grid-auto-flow: row;
+    grid-template-areas: "header" "section1" "section2" "footer"; }
+  .grill3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr auto;
+    grid-auto-flow: row;
+    grid-template-areas: "header" "section1" "section2" "section3" "footer"; }
+  .tabla {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
 
 .formContainer__title {
   color: black;
@@ -206,7 +251,8 @@ h1 {
   font-size: 1.25rem;
   align-content: stretch;
   justify-items: center;
-  width: auto; }
+  width: auto;
+  flex-direction: column; }
   .footer a {
     text-decoration: none;
     color: white;
