@@ -152,6 +152,15 @@ h1 {
   display: block;
   margin: auto; }
 
+.imagePrincipal {
+  border-radius: 50%;
+  display: block;
+  margin: auto; }
+
+.banner {
+  display: flex;
+  align-items: center; }
+
 .ubicacion {
   display: flex;
   height: 400px; }
@@ -206,7 +215,12 @@ h1 {
     align-items: center; }
   .carousel-inner {
     width: 250px;
-    z-index: 0; } }
+    z-index: 0; }
+  .imagePrincipal {
+    width: 250px; }
+  .banner {
+    display: flex;
+    flex-direction: column; } }
 
 .formContainer__title {
   color: black;

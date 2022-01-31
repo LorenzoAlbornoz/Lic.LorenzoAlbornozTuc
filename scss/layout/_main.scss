@@ -74,6 +74,17 @@ h1 {
   margin: auto;
 }
 
+.imagePrincipal {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
 .ubicacion {
   display: flex;
   height: 400px;
@@ -98,30 +109,31 @@ h1 {
     "section5"
     "footer";
 }
-  .grill2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.1fr 0.1fr auto;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header"
-      "section1"
-      "section2"
-      "footer"
-  }
 
-  .grill3 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr auto;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header"
-      "section1"
-      "section2"
-      "section3"
-      "footer"
-  }
+.grill2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr auto;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header"
+    "section1"
+    "section2"
+    "footer"
+}
+
+.grill3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr auto;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header"
+    "section1"
+    "section2"
+    "section3"
+    "footer"
+}
 
 
 @media (max-width: 990px) and (min-width: 300px) {
@@ -170,9 +182,17 @@ h1 {
     flex-direction: column;
     align-items: center;
   }
+
   .carousel-inner {
     width: 250px;
     z-index: 0;
   }
 
+  .imagePrincipal {
+    width: 250px;
+  }
+  .banner{
+    display: flex;
+    flex-direction: column;
+  }
 }
