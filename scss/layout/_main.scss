@@ -27,13 +27,58 @@ h1 {
 }
 
 .title {
-@extend %estilosTitulo;
+  @extend %estilosTitulo;
 }
 
+
 .subtitle {
- @extend %estilosSubTitulo;
+  @extend %estilosSubTitulo;
 }
 
 .text {
-@extend %estilosTexto
+  @extend %estilosTexto;
+}
+
+.carousel-inner {
+  margin-bottom: 2.5rem;
+}
+
+.fa-whatsapp {
+  color: white;
+  font-size: 3rem;
+  background-color: $color__whatsapp1;
+  padding: 0.6rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem;
+  &:hover {
+    background-color: $color__whatsapp2;
+    font-size: 3.5;
+    transition: 1s;
+  }
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+  margin-left: 10px;
+}
+
+.fa-facebook:before {
+  content: "\f09a";
+  margin-left: 10px;
+}
+
+.fa-youtube:before {
+  content: "\f167";
+  margin-left: 10px;
+}
+.logo {
+  height: 150px;
+  width: 150px;
+}
+
+.image {
+  display: block;
+  margin:auto;
 }

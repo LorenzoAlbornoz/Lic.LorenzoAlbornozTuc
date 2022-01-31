@@ -1,0 +1,23 @@
+﻿Agregue Keywords  "Licenciado en nutricion, nutricion, nutricion deportiva, bajar de peso, antropometría, antes y después, motivación, recetas” en Index.html
+
+
+Agregue Keywords "motivación, cambio de habitos, salud y vida, nutrición" en fotos.html
+
+
+Agregue Keywords "Licenciado en nutricion, nutricion, nutricion deportiva, antropometría, consultas de nutrición online" en tabla.html
+
+
+Agregue Keywords "recetas, alimentacion saludable, rico y saludable, nutricion" en lista.html
+
+
+Agregue Keywords "antes y despues, bajar de peso, descenso de peso saludable, cambios" en antesydespues.html
+
+
+Agregue Description “ Lic. Lorenzo Eduardo Albornoz Barrera, M.P 1408, Diplomado en Obesidad y Diabetes, ISAK nivel 2, Tucuman, San Miguel de Tucuman” en Index.html, fotos.html, tabla.html, lista.html, antesydespues.html
+
+
+Agregue el título a Index.html “LIC. LORENZO ALBORNOZ”
+Agregue el título a Fotos.html “GALERIA DE FOTOS”
+Agregue el título a Antesydespues.html “ANTES Y DESPUÉS”
+Agregue el título a Lista.html “RECETAS”
+Agregue el título a Tabla.html “SERVICIOS”
