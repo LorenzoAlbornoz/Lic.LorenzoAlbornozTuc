@@ -1,19 +1,16 @@
-﻿Agregue Keywords  "Licenciado en nutricion, nutricion, nutricion deportiva, bajar de peso, antropometría, antes y después, motivación, recetas” en Index.html
+﻿Agregue Keywords  "Licenciado en nutricion, nutricion, nutricion deportiva, bajar de peso, antropometría, antes y después, motivación, recetas” y Description “ Lic. Lorenzo Eduardo Albornoz Barrera, M.P 1408, Diplomado en Obesidad y Diabetes, ISAK nivel 2, Tucuman, San Miguel de Tucuman” en Index.html
 
 
-Agregue Keywords "motivación, cambio de habitos, salud y vida, nutrición" en fotos.html
+Agregue Keywords "motivación, cambio de habitos, salud y vida, nutrición" y Description "Lic. Lorenzo Eduardo Albornoz Barrera, M.P 1408, Diplomado en Obesidad y Diabetes, ISAK nivel 2, motivacion Tucuman, San Miguel de Tucuman" en fotos.html
 
 
-Agregue Keywords "Licenciado en nutricion, nutricion, nutricion deportiva, antropometría, consultas de nutrición online" en tabla.html
+Agregue Keywords "Licenciado en nutricion, nutricion, nutricion deportiva, antropometría, consultas de nutrición online" y Description "Lic. Lorenzo Eduardo Albornoz Barrera, M.P 1408, Diplomado en Obesidad y Diabetes, ISAK nivel 2, servicios, antropomeria, sacar turnos, Tucuman, San Miguel de Tucuman" en tabla.html
 
 
-Agregue Keywords "recetas, alimentacion saludable, rico y saludable, nutricion" en lista.html
+Agregue Keywords "recetas, alimentacion saludable, rico y saludable, nutricion" y Description "Lic. Lorenzo Eduardo Albornoz Barrera, M.P 1408, Diplomado en Obesidad y Diabetes, ISAK nivel 2, recetas, rico y saludable, Tucuman, San Miguel de Tucuman" en lista.html
 
 
-Agregue Keywords "antes y despues, bajar de peso, descenso de peso saludable, cambios" en antesydespues.html
-
-
-Agregue Description “ Lic. Lorenzo Eduardo Albornoz Barrera, M.P 1408, Diplomado en Obesidad y Diabetes, ISAK nivel 2, Tucuman, San Miguel de Tucuman” en Index.html, fotos.html, tabla.html, lista.html, antesydespues.html
+Agregue Keywords "antes y despues, bajar de peso, descenso de peso saludable, cambios" y Description "Lic. Lorenzo Eduardo Albornoz Barrera, M.P 1408, Diplomado en Obesidad y Diabetes, ISAK nivel 2, antes y despues, Tucuman, San Miguel de Tucuman" en antesydespues.html
 
 
 Agregue el título a Index.html “LIC. LORENZO ALBORNOZ”
