@@ -239,7 +239,9 @@ h1 {
     position: relative; }
   .banner {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .header {
+    height: 20vh; } }
 
 .formContainer__title {
   color: black;
