@@ -2,11 +2,11 @@
   text-align: center;
   color: black;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: sans-serif; }
 
 .subtitle {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   color: black; }
 
@@ -15,20 +15,39 @@
   text-align: center;
   color: black; }
 
+.text2 {
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+  position: relative;
+  left: 175px; }
+
+.text3 {
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+  position: relative;
+  right: 17.5px; }
+
+@media (max-width: 990px) and (min-width: 300px) {
+  .text2 {
+    position: relative;
+    left: 0px; } }
+
 .nombre {
   color: black;
   font-weight: bold;
-  font-size: 18px; }
+  font-size: 20px; }
 
 .logro {
   color: #292626;
   font-weight: bold;
-  font-size: 18px; }
+  font-size: 20px; }
 
 .objetivo {
   color: #694a4a;
   font-weight: bold;
-  font-size: 18px; }
+  font-size: 20px; }
 
 * {
   margin: 0;
@@ -40,19 +59,23 @@ body .section1 {
 
 body .section2 {
   background-color: #cacaca;
-  margin: 2rem; }
+  margin: 2rem;
+  padding: 1rem; }
 
 body .section3 {
   background-color: #cacaca;
-  margin: 2rem; }
+  margin: 2rem;
+  padding: 1rem; }
 
 body .section4 {
   background-color: #cacaca;
-  margin: 2rem; }
+  margin: 2rem;
+  padding: 1rem; }
 
 body .section5 {
   background-color: #cacaca;
-  margin: 2rem; }
+  margin: 2rem;
+  padding: 1rem; }
 
 .header {
   background-color: #151515;
@@ -129,7 +152,7 @@ h1 {
   right: 2rem; }
   .fa-whatsapp:hover {
     background-color: #18a32b;
-    font-size: 3.5;
+    font-size: 3.5rem;
     transition: 1s; }
 
 .fa-instagram:before {
@@ -151,12 +174,15 @@ h1 {
 
 .image {
   display: block;
-  margin: auto; }
+  margin: auto;
+  border-radius: 1rem; }
 
 .imagePrincipal {
   border-radius: 50%;
-  display: block;
-  margin: auto; }
+  border: 1px inset black;
+  left: 150px;
+  bottom: 5px;
+  position: relative; }
 
 .banner {
   display: flex;
@@ -180,13 +206,6 @@ h1 {
 .grill2 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.1fr 0.1fr 0.1fr auto;
-  grid-auto-flow: row;
-  grid-template-areas: "header" "section1" "section2" "footer"; }
-
-.grill3 {
-  display: grid;
-  grid-template-columns: 1fr;
   grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr auto;
   grid-auto-flow: row;
   grid-template-areas: "header" "section1" "section2" "section3" "footer"; }
@@ -201,12 +220,6 @@ h1 {
   .grill2 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.1fr 0.1fr auto;
-    grid-auto-flow: row;
-    grid-template-areas: "header" "section1" "section2" "footer"; }
-  .grill3 {
-    display: grid;
-    grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr auto;
     grid-auto-flow: row;
     grid-template-areas: "header" "section1" "section2" "section3" "footer"; }
@@ -218,7 +231,10 @@ h1 {
     width: 250px;
     z-index: 0; }
   .imagePrincipal {
-    width: 250px; }
+    width: 250px;
+    left: 0px;
+    bottom: 0px;
+    position: relative; }
   .banner {
     display: flex;
     flex-direction: column; } }

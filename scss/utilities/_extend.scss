@@ -3,13 +3,13 @@
     color: black;
     font: {
       weight: bold;
-      size: 3rem;
+      size: 2.5rem;
       family: sans-serif
     }
 }
 
 %estilosSubTitulo{
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     color: black;
 }
@@ -18,4 +18,27 @@
     font-size: 1rem;
     text-align: center;
     color: black;
+}
+
+%estilosTexto2{
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    position: relative;
+    left: 175px;
+}
+
+%estilosTexto3{
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    position: relative;
+    right: 17.5px;
+}
+
+@media (max-width: 990px) and (min-width: 300px) {
+    %estilosTexto2{
+        position: relative;
+        left: 0px;
+    }
 }

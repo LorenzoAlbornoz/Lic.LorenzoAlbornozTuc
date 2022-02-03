@@ -26,6 +26,14 @@ h1 {
   @extend %estilosTexto;
 }
 
+.text2 {
+  @extend %estilosTexto2;
+}
+
+.text3 {
+  @extend %estilosTexto3;
+}
+
 .carousel-inner {
   margin-bottom: 2.5rem;
   margin: auto;
@@ -44,7 +52,7 @@ h1 {
 
   &:hover {
     background-color: $color__whatsapp2;
-    font-size: 3.5;
+    font-size: 3.5rem;
     transition: 1s;
   }
 }
@@ -73,12 +81,15 @@ h1 {
 .image {
   display: block;
   margin: auto;
+  border-radius: 1rem;
 }
 
 .imagePrincipal {
   border-radius: 50%;
-  display: block;
-  margin: auto;
+  border: 1px inset black;
+  left: 150px;
+  bottom: 5px;
+  position: relative; 
 }
 
 .banner {
@@ -114,18 +125,6 @@ h1 {
 .grill2 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.1fr 0.1fr 0.1fr auto;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "header"
-    "section1"
-    "section2"
-    "footer"
-}
-
-.grill3 {
-  display: grid;
-  grid-template-columns: 1fr;
   grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr auto;
   grid-auto-flow: row;
   grid-template-areas:
@@ -135,7 +134,6 @@ h1 {
     "section3"
     "footer"
 }
-
 
 @media (max-width: 990px) and (min-width: 300px) {
   .grill {
@@ -154,18 +152,6 @@ h1 {
   }
 
   .grill2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.1fr 0.1fr auto;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header"
-      "section1"
-      "section2"
-      "footer"
-  }
-
-  .grill3 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr auto;
@@ -191,6 +177,9 @@ h1 {
 
   .imagePrincipal {
     width: 250px;
+   left: 0px;
+   bottom: 0px;
+   position: relative;
   }
 
   .banner {
