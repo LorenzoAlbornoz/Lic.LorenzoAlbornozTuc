@@ -47,10 +47,10 @@
                                 <a class="nav-link text-white" href="./antesydespues.html">ANTES Y DESPUÉS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="./listas.html">RECETAS</a>
+                                <a class="nav-link text-white" href="./recetas.html">RECETAS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="./tabla.html">SERVICIOS / SOLICITAR TURNO</a>
+                                <a class="nav-link text-white" href="./servicios.html">SERVICIOS / SOLICITAR TURNO</a>
                             </li>
                         </ul>
                     </div>
@@ -110,22 +110,33 @@
         </section>
 
         <section class="section3 formulario text-center">
-            <form action="#" method="GET">
-                <input type="text" value="Ingresa tu Nombre" name="Dato1" label="enviar-nombre" required id="fuente">
-                <br>
-                <input type="text" placeholder="Ingresa tu Apellido" name="Dato2" required id="fuente">
-                <br>
-                <input type="text" placeholder="Ingresa tu Mail" name="Dato3" required id="fuente">
-                <br>
-                <input type="number" name="Edad" required id="fuente">
-                <br>
-                <input type="date" name="Fecha" required id="fuente">
-                <br>
-                <input type="tel" name="Telefono" required id="fuente">
-                <br>
+            <form action="#" target="" method="get" name="formDatosPersonales">
+
+                <label for="nombre" class="form__label">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre/s" class="form__input">
+
+                <label for="apellidos" class="form__label">Apellidos</label>
+                <input type="text" name="apellidos" id="apellidos" placeholder="Apellido/s" class="form__input">
+
+                <label for="email" class="form__label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required class="form__input">
+
+                <label for="fecha" class="form__label">Fecha</label>
+                <input type="date" name="date" id="date" placeholder="Fecha" class="form__input">
+
+                <label for="telefono" class="form__label">Telefono</label>
+                <input type="tel" name="Telefono" id="tel" placeholder="Teléfono" required class="form__input">
+
+                <label for="mensaje" class="form__label">Mensaje</label>
+                <textarea name="mensaje" for="mensaje" placeholder="Motivo de la consulta"
+                    maxlength="300" class="form__input"></textarea>
+
+
+
                 <!-- Opciones tipo radio -->
-                <div>
+                
                     <h3>Sexo</h3>
+                    <div class="form1">
                     <p>Hombre</p>
                     <input type="radio" value="Mujer" name="Sexo">
                     <p>Mujer</p>
@@ -142,23 +153,23 @@
                     </p>
                 </div>
 
-
                 <!-- Desplegable -->
                 <select name="Nacionalidad">
                     <option value="1">Argentina</option>
                     <option value="2">Mexico</option>
                     <option value="3">Peru</option>
                 </select>
-                <input type="submit" for="enviar-nombre" value="SOLICITAR">
+                <div>
+                    <input type="submit" name="enviar" value="ENVIAR" class="form__input form__input--submit">
+                </div>
             </form>
         </section>
 
         <footer class="footer">
-            <a href="https://www.instagram.com/lic.lorenzoalbornoz.nutri/?hl=es" target="_blank">Instagram<i
+            <a href="https://www.instagram.com/lic.lorenzoalbornoz.nutri/?hl=es" target="_blank"><i
                     class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/lic.lorenzoalbornoz" target="_blank">Facebook <i
-                    class="fab fa-facebook"></i></a>
-            <a href="" target="_blank">Youtube<i class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/lic.lorenzoalbornoz" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="" target="_blank"><i class="fab fa-youtube"></i></a>
             <a href="https://wa.me/543816440148?text=Hola%20necesito%20informacion" target="_blank"><i
                     class="fab fa-whatsapp wow animate__animated animate__rubberBand"></i></a>
         </footer>

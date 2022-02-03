@@ -3,15 +3,13 @@ h1 {
 }
 
 .title-container {
-  height: 30vh;
+  height: 12.5vh;
 }
 
 .text-container {
   text-align: center;
-  position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .title {
@@ -73,8 +71,8 @@ h1 {
 }
 
 .logo {
-  height: 150px;
-  width: 150px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
 }
 
@@ -99,12 +97,16 @@ h1 {
 
 .ubicacion {
   display: flex;
-  height: 400px;
+  height: 350px;
 }
 
 .tabla {
   display: flex;
   justify-content: space-between;
+}
+
+.formulario{
+  background-color: red;
 }
 
 .grill {
