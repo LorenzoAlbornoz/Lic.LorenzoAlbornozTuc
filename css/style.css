@@ -34,7 +34,9 @@
 @media (max-width: 990px) and (min-width: 300px) {
   .text2 {
     position: relative;
-    left: 0px; } }
+    left: 0px; }
+  .text {
+    width: auto; } }
 
 .nombre {
   color: black;
@@ -226,18 +228,6 @@ h1 {
   grid-template-areas: "header" "section1" "section2" "section3" "footer"; }
 
 @media (max-width: 990px) and (min-width: 300px) {
-  .grill {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr auto;
-    grid-auto-flow: row;
-    grid-template-areas: "header" "section1" "section2" "section3" "section4" "section5" "footer"; }
-  .grill2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr auto;
-    grid-auto-flow: row;
-    grid-template-areas: "header" "section1" "section2" "section3" "footer"; }
   .tabla {
     display: flex;
     flex-direction: column;
