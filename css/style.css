@@ -119,6 +119,10 @@ ul ul {
 li {
   list-style: none; }
 
+@media (max-width: 990px) and (min-width: 300px) {
+  nav ul li a {
+    margin: 0rem; } }
+
 h1 {
   background-color: #29aeb3;
   color: black;
@@ -231,7 +235,7 @@ h1 {
   .grill2 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr auto;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr auto;
     grid-auto-flow: row;
     grid-template-areas: "header" "section1" "section2" "section3" "footer"; }
   .tabla {

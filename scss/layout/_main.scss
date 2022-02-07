@@ -164,7 +164,7 @@ h1 {
   .grill2 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr auto;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr auto;
     grid-auto-flow: row;
     grid-template-areas:
       "header"
