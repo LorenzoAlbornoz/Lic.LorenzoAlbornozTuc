@@ -213,6 +213,9 @@ h1 {
   flex-wrap: wrap;
   justify-content: flex-start; }
 
+.navbar-nav .nav-link {
+  padding: 0.5rem; }
+
 .grill {
   display: grid;
   grid-template-columns: 1fr;
