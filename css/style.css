@@ -243,11 +243,6 @@ iframe {
   .header {
     height: 20vh; } }
 
-@media (max-width: 600px) and (min-width: 300px) {
-  iframe {
-    width: 200px;
-    height: 200px; } }
-
 .formContainer__title {
   color: black;
   text-align: center;
