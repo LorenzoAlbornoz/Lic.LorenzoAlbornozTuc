@@ -169,3 +169,9 @@ iframe{
 
 }
 
+@media (max-width: 550px) and (min-width: 300px) {
+  iframe{
+    width: 200px;
+    height: 200px;
+  }
+}
