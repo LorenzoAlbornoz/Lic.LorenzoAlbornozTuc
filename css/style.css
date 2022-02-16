@@ -217,6 +217,9 @@ iframe {
   flex-wrap: wrap;
   justify-content: flex-start; }
 
+.navbar-nav .nav-link {
+  padding: 0.5rem; }
+
 .grill {
   display: grid;
   grid-template-columns: 1fr;
@@ -242,11 +245,6 @@ iframe {
     flex-direction: column; }
   .header {
     height: 20vh; } }
-
-@media (max-width: 600px) and (min-width: 300px) {
-  iframe {
-    width: 200px;
-    height: 200px; } }
 
 .formContainer__title {
   color: black;
